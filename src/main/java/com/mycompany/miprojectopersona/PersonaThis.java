@@ -14,7 +14,6 @@ public class PersonaThis {
     int DNI;
     String Nombre, Apellido;
     char Sexo;
-	
     
 //Constructor 
     public PersonaThis(){
@@ -51,7 +50,6 @@ public class PersonaThis {
       System.out.println("  ----- mostrarS1  -----  " );
       System.out.println("El DNI y Apellido es: " + this.DNI + " " + this.Apellido );
       System.out.println("El Nombre y Sexo es: " + this.Nombre + " " + Sexo );
-
     }
 
     public void mostrarCP(int dni, String Nombre, String Apellido, char Sexo){
